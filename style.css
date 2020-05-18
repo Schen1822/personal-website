@@ -1,0 +1,33 @@
+
+body {
+	background-color: red;
+}
+
+.title {
+	text-indent: 100px;
+}
+
+#intro {
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 75px;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+#blurb {
+    font-family: monospace;
+	font-size: 14px;
+	text-align: center;
+	width: 350px;
+}
+
+#profilepic {
+	position: fixed;
+	left: 40%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
