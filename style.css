@@ -1,10 +1,32 @@
 
-body {
-	background-color: red;
+img {
+	width: 200px;
+	height: 300px;
+}
+.body {
+	position: relative;
+	top: 175px;
+	left: 100px;
 }
 
-.title {
+h1.title {
+	position: fixed;
+	font-family: "Lucida Console", Monaco, monospace;
 	text-indent: 100px;
+	top:100px;
+}
+
+p.title {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+}
+
+.subtitle {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.content {
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 #intro {
@@ -30,4 +52,14 @@ body {
 	top: 50%;
 	transform: translateX(-50%) translateY(-50%);
 }
+
+.navbar {
+	position: fixed;
+}
+
+img.card:hover .caption {
+	opacity: 1;
+}
+
+
 
